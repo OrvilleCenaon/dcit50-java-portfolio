@@ -85,4 +85,26 @@ This activity involves creating a Java program to model a simple school manageme
 - Aggregation (Teacher has Courses)  
 - Constructors and the `super` keyword  
 - Arrays of objects  
-- Loops and methods for displaying information  
+- Loops and methods for displaying information
+
+## Laboratory Activity 6: Smart Home Control System
+
+**Description:**  
+This activity involves creating a Java program that models a simplified smart home system. Different devices such as air conditioners, lamps, televisions, and microwaves are represented using classes, and their behaviors are controlled through object-oriented programming principles.
+
+**Key Features:**  
+- Defines a parent `Device` class with common behaviors (turn on/off, show status)  
+- Implements subclasses for `AirConditioner`, `LampShade`, `Television`, and `Microwave`  
+- Demonstrates **method overriding** to show different device behaviors  
+- Uses **polymorphic references** and arrays of parent type to manage multiple devices  
+- Encapsulates device attributes with setters that display updated status  
+- Provides static methods to power on/off all devices and count devices currently on  
+
+**Java Concepts Used:**  
+- Inheritance and method overriding  
+- Polymorphism (parent type → child objects)  
+- Encapsulation (private fields with setters)  
+- Static methods for device management  
+- Arrays of objects and loops  
+- Dynamic behavior via runtime polymorphism
+
