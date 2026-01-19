@@ -108,3 +108,23 @@ This activity involves creating a Java program that models a simplified smart ho
 - Arrays of objects and loops  
 - Dynamic behavior via runtime polymorphism
 
+## Laboratory Activity 7: Abstraction and Encapsulation in Java
+
+**Description:**  
+This activity involves creating a simple Order Management System that emphasizes **abstraction, encapsulation, and safe data handling**. Orders are represented using abstract classes, interfaces, and enums, while collections are managed securely.
+
+**Key Features:**  
+- Defines an `Order` abstract class with private fields and an abstract `processOrder()` method  
+- Implements `Payable` interface to define payment behavior  
+- Uses enums (`OrderStatus`) to represent order states safely  
+- Creates `OnlineOrder` class that extends `Order` and implements `Payable`  
+- Encapsulates order data with private fields, getters, and validated setters  
+- Stores multiple orders in an `ArrayList` and traverses them using an `Iterator`  
+- Supports adding, processing, paying, and safely removing orders  
+
+**Java Concepts Used:**  
+- Abstraction (abstract classes and interfaces)  
+- Encapsulation (private fields, getters/setters, controlled access)  
+- Enums for fixed states  
+- Collections (`ArrayList`) and iterators  
+- Object-oriented design and modular class organization
