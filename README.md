@@ -26,3 +26,24 @@ This activity involves creating a basic Java console application that simulates 
 - Conditional statements (`if-else`, `switch-case`)  
 - Methods and basic program structure
 
+## Laboratory Activity 2: Working with Java Classes and Objects
+
+**Description:**  
+This activity focuses on applying object-oriented programming concepts by creating and using Java classes and objects to represent books and their attributes.
+
+**Key Features:**  
+- Defines a `Book` class with properties such as title, author, year published, and current page  
+- Uses a constructor to initialize object data  
+- Creates multiple `Book` objects in the main program  
+- Calls class methods to display details and update object values  
+- Modifies object attributes such as current page and author  
+- Stores `Book` objects in an array and filters books based on publication year  
+
+**Java Concepts Used:**  
+- Classes and objects  
+- Encapsulation using private fields  
+- Constructors  
+- Methods and object manipulation  
+- Arrays of objects  
+- Loops and conditional statements
+
