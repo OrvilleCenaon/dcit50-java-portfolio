@@ -128,3 +128,26 @@ This activity involves creating a simple Order Management System that emphasizes
 - Enums for fixed states  
 - Collections (`ArrayList`) and iterators  
 - Object-oriented design and modular class organization
+
+## Laboratory Final Exam: Java Swing To-Do List Application
+
+**Description:**  
+This final project involves creating a Java Swing To-Do List application to help students manage tasks efficiently. The application uses **object-oriented programming principles** to ensure a well-structured and maintainable system.
+
+**Key Features:**  
+- Defines an abstract parent class `AbstractTask` with attributes `taskId`, `taskName`, and `taskDescription`  
+- Implements subclasses `Task` and `TimedTask` with additional attributes (`status`, `estimatedMinutes`) and proper encapsulation  
+- Uses `TaskManager` class to handle creating, updating, removing, and viewing tasks  
+- Implements a main application window with a `JTable` to display all tasks  
+- Provides a task input form window for adding new tasks, ensuring only one instance of the form can be open at a time  
+- Validates all user input before saving tasks  
+- Updates the main table automatically after adding tasks  
+
+**Java Concepts Used:**  
+- Object-Oriented Programming: inheritance, abstraction, encapsulation  
+- Abstract classes and method overriding  
+- Swing GUI components (`JTable`, forms, buttons, combo boxes)  
+- Controller design pattern (`TaskManager`)  
+- Data validation and event-driven programming  
+- Dynamic UI updates and single-instance form management
+
